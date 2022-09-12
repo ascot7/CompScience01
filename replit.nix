@@ -1,5 +1,7 @@
 { pkgs }: {
   deps = [
+    pkgs.sudo
+    pkgs.apk-tools
     pkgs.python38Full
   ];
   env = {
